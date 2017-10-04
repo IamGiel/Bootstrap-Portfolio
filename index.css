@@ -1,0 +1,112 @@
+#HeaderLogo {
+    height:20px;
+    width:20px;
+}
+
+#myName {
+    position: relative;
+    line-height: 2px;
+    width: 122px;
+    color: white;
+    line-height: 20px;
+}
+
+.container-fluid {
+    padding-right: 54px;
+    padding-left: 56px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img#icons, img#icons-Stack.stack, img#icons-Stack {
+    height:35px;
+    width:35px;
+}
+
+.container-fluid>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: teal;
+    margin-bottom: 10px;
+}
+.placeHolder {
+    vertical-align: middle;
+    position: relative;
+    left: -24px;
+}
+#myName {
+    position: relative;
+    line-height: 2px;
+    width: 122px;
+}
+
+#col12 {
+    color:teal;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    color:teal;
+}
+
+.panel-default>.panel-heading {
+    color: teal;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.thumbPics {
+    border-width:1px;
+    border-style: solid;
+    border-color: teal;
+}
+
+#thumbP {
+    height: 57px;
+    width: 99%;
+    position: relative;
+    top: -95px;
+    left: 1px;
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#footer {
+    height: 57px;
+    width: 106%;
+    position: relative;
+    bottom: 0px;
+    left: -28px;
+    background-color:#24120f;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+img#cave.placeHolder {
+    width:100%;
+}
+
+p {
+    margin: 18px 0 10px;
+}
+
+#footer {
+    height: 57px;
+    float: left;
+    width: 111%;
+    position: fixed;
+    bottom: 0px;
+    left: -45px;
+    background-color: #24120f;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+

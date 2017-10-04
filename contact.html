@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Gel's Cave</title>
+  <title>Connect with Gel</title>
   <link rel="icon" href="./assets/images/gelsLogo.png" type="image/gif" sizes="16x16">
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,6 +11,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="index.css">
+  
+
 </head>
 
 <style>
@@ -43,9 +46,10 @@
         
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a id="aHome" href="#">Home</a></li>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a id="aHome" href="index.html">Home</a></li>
       <li><a id="aPort" href="portfolio.html">Portfolio</a></li>
-      <li><a id="aContact" href="contact.html">Contact</a></li>
+      <li class="active"><a id="aContact" href="contact.html">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -53,8 +57,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-
-      <h2 id="col12">About Me</h2>
+      <h2 id="col12">Contact</h2>
     </div>
     <div class="col-md-4">
 
@@ -65,14 +68,38 @@
   </div>
 
   <div class="row">
-    <div class="col-md-2">
-      <div class="container">
-           <img class="placeHolder" src="http://via.placeholder.com/150x150" alt="..." class="img-thumbnail">     
-      </div>
+    
+    
+    <div class="col-md-8" id="paragraph">
+      
+    
+
+  
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="First Name">First Name</label>
+      <input type="First Name" class="form-control" id="First Name" placeholder="Enter First Name" First Name="First Name">
     </div>
-    <div class="col-md-6" id="paragraph">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam adipisci dolorem repudiandae nulla, non obcaecati libero est sunt, esse corrupti sed. Ut error repellat porro iusto optio incidunt asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur culpa incidunt doloribus ex saepe hic eius animi dolores nostrum sequi, doloremque repudiandae, cupiditate deleniti! Quisquam, perferendis, deserunt! Unde, odio.
+
+    <div class="form-group">
+      <label for="Last Name">Last Name</label>
+      <input type="Last Name" class="form-control" id="Last Name" placeholder="Enter Last Name" Last Name="Last Name">
     </div>
+    <div class="form-group">
+      <label for="Message me">Message me</label>
+      <input type="Message me" class="form-control" id="Message me" placeholder="Thoughts are like blueprints of human creation - byMe" Message me="Message me">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Lets Connect!</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+
+
+
+  
     <div class="col-md-4">  
         <div class="panel panel-default">
             <div class="panel-heading">Connect With Me</div>
@@ -84,9 +111,11 @@
           </div>
     </div>
 </div>
+  
 
 
 <!-- this is the background picture at the bottom -->
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -97,11 +126,12 @@
     </div>
   </div>
   <br><br><br><br><br><br>   <br><br><br><br><br><br> 
+
 <!-- footer -->
 <div id="footer">
       <div class="row" id="footer">
         <div class="col-md-12">
-        <p class="muted Credit"> &copy;Copyright 2017 Alpha DeAsis</p>
+        <p class="muted Credit">&copy; Copyright 2017 Alpha DeAsis</p>
         </div>
       </div>
 </div>
